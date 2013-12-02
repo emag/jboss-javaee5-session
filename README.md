@@ -21,7 +21,7 @@ Usage
  
 ``` sh
 $ cd /path/to/jboss-javaee5-session
-$ mvn clean install package
+$ mvn clean package
 $ cp target/jboss-javaee5-session-<version>.war $DEPLOY_DIR/jboss-javaee5-session.war
 ```
 
