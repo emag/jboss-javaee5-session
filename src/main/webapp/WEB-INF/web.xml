@@ -14,4 +14,6 @@
     <servlet-name>accesscounter</servlet-name>
     <url-pattern>/accesscounter</url-pattern>
   </servlet-mapping>
+
+  <distributable/>
 </web-app>
