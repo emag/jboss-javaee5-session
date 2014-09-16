@@ -22,14 +22,14 @@ Usage
 ``` sh
 $ cd /path/to/jboss-javaee5-session
 $ mvn clean package
-$ cp target/jboss-javaee5-session-<version>.war $DEPLOY_DIR/jboss-javaee5-session.war
+$ cp target/session-test.war $DEPLOY_DIR/session-test.war
 ```
 
-The application will be running at the following URL: <http://localhost:8080/jboss-javaee5-session/accesscounter>
+The application will be running at the following URL: <http://localhost:8080/session-test/accesscounter>
 
 ### For wget ###
 
 ``` sh
-$ wget --save-cookies cookies --keep-session-cookies http://localhost:8080/jboss-javaee5-session/accesscounter
-$ wget --load-cookies cookies http://localhost:8080/jboss-javaee5-session/accesscounter
+$ wget --save-cookies cookies --keep-session-cookies http://localhost:8080/session-test/accesscounter
+$ wget --load-cookies cookies http://localhost:8080/session-test/accesscounter
 ```
